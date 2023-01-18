@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Basi core program");
+            Console.WriteLine("Welcome to Basic core program");
+            EvenOddFun myObj = new EvenOddFun();
+            myObj.EvenOdd();
+
             Console.ReadLine();
         }
     }
