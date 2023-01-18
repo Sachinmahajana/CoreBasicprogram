@@ -10,7 +10,7 @@ namespace CoreBasicprogram
     {
         public void EvenOdd()
         {
-            Console.WriteLine("Enter any number");
+            Console.WriteLine("Enter a number");
             int number = Convert.ToInt32(Console.ReadLine());
             if (number % 2 == 0)
             { 
