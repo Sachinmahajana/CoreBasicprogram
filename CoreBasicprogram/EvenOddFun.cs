@@ -12,14 +12,16 @@ namespace CoreBasicprogram
         {
             Console.WriteLine("Enter a number");
             int number = Convert.ToInt32(Console.ReadLine());
-            if (number % 2 == 0)
-            { 
-                Console.WriteLine("Enter number is even");
+            if(number%2==0)
+            {
+                    Console.WriteLine("Number is Even");
             }
             else
             {
-                Console.WriteLine("Enter number is odd");
+                Console.WriteLine("Number is Odd");
             }
+            Console.ReadLine();
+            
             
         }
     }
