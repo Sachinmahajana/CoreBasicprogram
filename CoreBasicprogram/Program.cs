@@ -10,8 +10,11 @@
             //Evenodd1 myObj1 = new Evenodd1();
             //myObj1.Even();
 
-            Large myObj2 = new Large();
-            myObj2.LargeFun();
+            //Large myObj2 = new Large();
+            //myObj2.LargeFun();
+
+            Swapnumber myObj3 = new Swapnumber();
+            myObj3.SwapNumber();
 
             Console.ReadLine();
         }
