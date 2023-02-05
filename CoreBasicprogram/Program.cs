@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Basic core program");
             Console.WriteLine("\n1.EvenOddFun \n2.Largenumber \n3.Swapnumber \n4.LeapYear \n5.EvenOdd1");
-            Console.WriteLine("\n6.FlipCoin \n7.PrimeFactor");
+            Console.WriteLine("\n6.FlipCoin \n7.PrimeFactor\n8.FindPowerOf2");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -38,6 +38,10 @@
                 case 7:
                     PrimeFactor myObj6 = new PrimeFactor();
                     myObj6.PrimeFactorFun();
+                    break;
+                case 8:
+                    PowerOf2 myObj7 = new PowerOf2();
+                    myObj7.FindPowerOfTwo();
                     break;
                 default:
                     Console.WriteLine("Choose from given option only!");
