@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Basic core program");
             Console.WriteLine("\n1.EvenOddFun \n2.Largenumber \n3.Swapnumber \n4.LeapYear \n5.EvenOdd1");
-            Console.WriteLine("\n6.FlipCoin \n7.PrimeFactor\n8.FindPowerOf2\n9.HarmonicNumber");
+            Console.WriteLine("\n6.FlipCoin \n7.PrimeFactor\n8.FindPowerOf2\n9.HarmonicNumber\n10.VowelOrConsonant");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -46,6 +46,10 @@
                 case 9:
                     Harmonicnumber myObj8 = new Harmonicnumber();
                     myObj8.HarmonicNumber();
+                    break;
+                case 10:
+                    VowelOrConsonant myObj9 = new VowelOrConsonant();
+                    myObj9.VowelOrConsonantFun();
                     break;
                 default:
                     Console.WriteLine("Choose from given option only!");
